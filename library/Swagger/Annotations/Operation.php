@@ -95,6 +95,11 @@ class Operation extends AbstractAnnotation
     public $consumes;
 
     /**
+     * @var Authorizations
+     */
+    public $authorizations;
+
+    /**
      * Undocumented
      * @var bool
      */
@@ -106,6 +111,7 @@ class Operation extends AbstractAnnotation
         '\Swagger\Annotations\Produces' => 'produces[]',
         '\Swagger\Annotations\Consumes' => 'consumes[]',
         '\Swagger\Annotations\Items' => 'items',
+        '\Swagger\Annotations\Authorizations' => 'authorizations',
     );
 
     /**

@@ -2,11 +2,15 @@
 Changelog
 ----------
 
+## 0.9.1
+
+ * Implemented @SWG\Info & @SWG\Authorizations which can be used to augment the api-docs.json with metadata.
+
 ## 0.9.0
 
 * New processing architecture allowing swagger-php to act on other annotations (https://github.com/zircote/swagger-php/pull/121)
 * Improved model referencing: $ref allowed with complex modelnames (https://github.com/zircote/swagger-php/pull/122 and https://github.com/zircote/swagger-php/pull/123)
-* Updated depedencies creating a 50% smaller swagger.phar
+* Updated dependencies creating a 50% smaller swagger.phar
 
 ## 0.8.3
 
